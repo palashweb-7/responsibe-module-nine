@@ -1,0 +1,87 @@
+.banner{
+    background: rgba(255, 144, 14, 0.10);;
+    padding: 50px 240px;
+}
+
+.btn-primary {
+    background-color: orange;
+    color: white;
+    border: 0;
+    padding: 9px 12px;
+    font-weight: bold;
+}
+
+
+.overall-banner{
+    
+}
+
+/* nav style start */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-description{
+    color: #727272;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+/* nav style end */
+
+.banner-title-section{
+    max-width: 800px;
+    text-align: center;
+    /* line-height: 100%; */
+    margin: 0 auto;
+}
+
+ .banner-title{
+    font-size: 4rem;
+    font-weight: 700px;
+}
+
+.g3-architects{
+    font-size: 30px;
+}
+
+.banner-img img{
+    width: 100%;
+    margin-top: 50px;
+} 
+
+
+/* media queri */
+
+@media screen and (max-width:576px){
+    nav{
+        flex-direction: column;
+       
+    }
+    .banner{
+        padding: 20px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:780px){
+    nav{
+        flex-direction: column;
+    }
+    .banner{
+        padding: 20px;
+    }
+}
