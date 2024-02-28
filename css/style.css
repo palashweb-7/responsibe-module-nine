@@ -44,7 +44,7 @@ nav li a{
 
 /* nav style end */
 
-.banner-title-section  {
+.banner-title-section , .Some-Facts-2 {
     max-width: 800px;
     text-align: center;
     /* line-height: 100%; */
@@ -122,7 +122,39 @@ span{
     padding: 0;
 }
 
+
+/*  .Some-Facts */
+
+.Some-Facts{
+    margin: 20px 240px;
+    padding-right: 300px;
+}
+
+/* icons  */
+.icons-container{
+    display: flex;
+    margin: 50px 240px;
+    justify-content: space-around;
+    
+}
+.icon{
+    text-align: center;
+    border: 0.5px solid orchid;
+    padding: 10px;
+}
+
+.footer{
+    background-color: bisque;
+    margin:30px 240px;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+}
+
 /* media queri */
+
+
+
 
 @media screen and (max-width:576px){
     nav{
@@ -166,5 +198,13 @@ span{
     }
     .girl-description, .girl-photo{
         padding: 20px 30px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .icons-container , .Some-Facts, .footer{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
     }
 }
